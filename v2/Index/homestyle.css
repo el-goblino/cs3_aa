@@ -6,7 +6,7 @@
 header{
 	border:4px solid #0094FF;
 	padding:2px;
-	width:530px;
+	width:540px;
 	height:20px;
 	background:#07202A;
 	font-size: 70%;
@@ -18,7 +18,7 @@ nav{
 	align-items: center;
 	justify-content:center;
 	display:flex;
-	width:530px;
+	width:540px;
 	height:40px;
 	padding:2px;
 	border:4px double cyan;
@@ -153,12 +153,12 @@ article > div{
 }
 
 footer{
-	width:528px;
+	width:540px;
 	height:75px;
 	border:4px solid #0094FF;
 	color:#0094FF;
 	background:#07202A;
-	padding: 4px;
+	padding: 2px;
 	position:relative;
 	font-size: 9px;
 }
@@ -166,9 +166,8 @@ footer{
 #wrapper{
 	display:flex;
 	flex-direction:column;
-	margin-left:auto;
-	margin-right:auto;
-	width:800px;
+	margin:auto;
+	width:700px;
 	align-items: center;
 }
 

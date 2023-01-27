@@ -31,7 +31,7 @@ article{
     background:#1C5661;
 }
 
-div{
+#bg{
     border:4px double cyan;
     display:flex;
     width:320px;
@@ -48,6 +48,7 @@ aside{
     margin-left:5px;
     padding-left:3px;
     background:black;
+    font-size:10px;
 }
 
 .furniture{
@@ -103,4 +104,12 @@ footer{
 
 #terminal:active{
     background-position:-31px 0px;
+}
+
+#wrapper{
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width:700px;
 }

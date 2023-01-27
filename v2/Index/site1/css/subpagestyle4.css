@@ -1,0 +1,42 @@
+:root{
+    background:black;
+    font-family: 'Verdana', 'Futura', 'Century Gothic', sans-serif;
+}
+
+#wrapper{
+    width:580px;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+}
+
+article{
+    width:580px;
+    display:flex;
+    background:#aaa;
+    justify-content: center;
+    flex-direction: row;
+    padding:2px;
+    border:1px solid darkslategray;
+}
+
+section{
+    text-align: center;
+    justify-content: center;
+    display:flex;
+    width:550px;
+    font-size:11px;
+    background:#bbb;
+    border:2px solid black;
+    margin:2px;
+}
+
+footer{
+    width:580px;
+    background:gray;
+    border:1px solid darkslategray;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    padding:2px;
+}

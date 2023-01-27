@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--meta tags-->
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content=""
+		<!--css-->
+		<link rel="stylesheet" type="text/css" href="homestyle.css">
+		<title>The Terminal</title>
+		<!--js-->
+		<script src="index.js"></script>
+	</head>
+	
+	<body>
+		<div id="wrapper">
+			<header>
+				<div>
+					<strong>TERMINAL v1.0.2</strong>
+					<br>
+					A Relatively Secure Form of Transportation
+				</div>
+			</header>
+			<nav>
+				<a href="github.com/el-goblino" id="github"></a>
+			</nav>
+			<article>
+				<!--left button-->
+				<a id="button1" onclick="sidebar1.open()" href = "#">*</a>
+	
+				<div id = "left">
+					<!--first sidebar-->
+					What is a Terminal? <br><br>
+					A <b>Terminal</b> serves as an interface to interact with various homepages you have access to. 
+				</div>
+	
+				<div id="circuit">
+					<!--links-->
+					<a id="store1" href="site1/html/index.html" onmouseover="desc1.change()" onmouseout="desc1.revert()"></a>
+					<a id="rooms" href="site2/html/room.html" onmouseover="desc2.change()" onmouseout="desc2.revert()"></a>
+				</div>
+	
+				<div id = "right">
+					<!--second sidebar-->
+					Settings coming soon!
+				</div>
+				<!--right button-->
+				<a id="button2" onclick="sidebar2.open()" href = "#">*</a>
+			</article>
+	
+			<footer>
+				<!--the textbox's text changes when you hover on one of the links-->
+				<div id="textbox">
+					Hover over a diamond to see its information. Clicking on one will redirect you to its respective homepage.
+				</div>
+				<div class="socials">
+	
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,178 @@
+:root{
+	background-color:black;
+	font-family:monospace;
+}
+
+header{
+	border:4px solid #0094FF;
+	padding:2px;
+	width:530px;
+	height:20px;
+	background:#07202A;
+	font-size: 70%;
+	text-align:center;
+	color:#0094FF;
+}
+
+nav{
+	align-items: center;
+	justify-content:center;
+	display:flex;
+	width:530px;
+	height:40px;
+	padding:2px;
+	border:4px double cyan;
+}
+
+nav > a{
+	width:30px;
+	height:30px;
+	background:url('site2/sprites/icons.png');
+	transform:scale(1.2);
+}
+
+#github{
+	background-position:0px -25px;
+}
+
+#github:active{
+	background-position:-31px -25px;
+}
+button{
+	width:20px;
+	height:20px;
+	border:2px solid white;
+}
+
+#circuit{
+	width:256px;
+	height:256px;
+	background-repeat:no-repeat;
+	border:8px double #0094FF;
+	background:url('bg.gif') black;
+	animation:borderchange 0.5s;
+	transition-timing-function:step-end;
+	animation-direction:backwards;
+	animation-iteration-count:infinite;
+	background-origin:padding-box;
+	position:relative;
+	z-index:2;
+}
+
+article{
+	display:flex;
+	width:600px;
+}
+
+article > div{
+	position:relative;
+	display:block;
+	color:black;
+	border:8px double #0094FF;
+	background:#287D8C;
+	width:140px;
+	height:256px;
+	padding-left:2px;
+	z-index:1;
+}
+
+#button1{
+	border-top:6px double cyan;
+	border-left:6px double cyan;
+	transform:translatey(128px) rotate(-45deg) ;
+	text-decoration:none;
+	padding:1px;
+	width:15px;
+	height:15px;
+	text-align:center;
+}
+
+#button2{
+	border-top:6px double cyan;
+	border-left:6px double cyan;
+	transform:translatey(128px) rotate(135deg);
+	text-decoration:none;
+	padding:1px;
+	width:15px;
+	height:15px;
+	text-align:center;
+}
+
+#left{
+	border-right:none;
+	transform:translate(157px,0px);
+}
+
+#right{
+	text-align:right;
+	border-left:none;
+	transform:translate(-157px,0px);
+}
+
+#store1{
+	display:flex;
+	z-index:1;
+	background:url('site1/img/static.gif');
+	background-origin:padding-box;
+	width:20px;
+	height:20px;
+	border:4px solid #0094FF;
+	transform:translate(36px,37px) rotate(45deg) scale(0.75);
+	text-decoration:none;
+	animation:borderchange 0.5s;
+	transition-timing-function:ease;
+	animation-direction:alternate;
+	animation-iteration-count:infinite;
+	font-size:2px;
+	text-align:center;
+}
+
+#store1:hover{
+	transform:translate(36px, 37px) rotate(360deg) scale(1.3);
+	transition:transform 0.1s;
+}
+
+#rooms{
+	transition-timing-function: ease;
+	display:flex;
+	z-index:1;
+	background:rgb(153, 218, 255);
+	background-origin: padding-box;
+	width: 20px;
+	height: 20px;
+	border: 4px solid #0094FF;
+	animation: borderchange 0.5s infinite alternate;
+	font-size: 2px;
+	text-align: center;
+	transform:translate(112px,82.25px) rotate(45deg) scale(0.75);
+}
+
+#rooms:hover{
+	transform:translate(112px, 82.25px) rotate(360deg) scale(1.3);
+	transition:transform 0.1s;
+}
+
+footer{
+	width:528px;
+	height:75px;
+	border:4px solid #0094FF;
+	color:#0094FF;
+	background:#07202A;
+	padding: 4px;
+	position:relative;
+	font-size: 9px;
+}
+
+#wrapper{
+	display:flex;
+	flex-direction:column;
+	margin-left:auto;
+	margin-right:auto;
+	width:800px;
+	align-items: center;
+}
+
+@keyframes borderchange{
+	50%{border-color:#0094FF;}
+	100%{border-color:#00F4FF;}
+}

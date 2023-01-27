@@ -1,0 +1,1 @@
+The Bargain Bin is a false shady looking shopping site designed by Glen Hendrick V. De Asis. It features a variety of false testimonies, dangerous fake products, and MEMES!

@@ -1,5 +1,52 @@
+#menu{
+	background:black;
+	border:4px double cyan;
+	width:1152px;
+	height:50px;
+	display:flex;
+	flex-direction:row;
+	align-items: center;
+	justify-content:space-evenly;
+	padding:2px;
+	margin:auto;
+	margin-bottom: 20px;
+}
 
-.container{
+#menu > a{
+	display:flex;
+	width:30px;
+	height:30px;
+	background:url('../../site2/sprites/icons.png');
+	transform:scale(1.2);
+}
+
+#github:link{
+	background-position:0px -25px;
+}
+
+#github:active{
+	background-position:-31px -25px;
+}
+
+#gmail:link{
+	background-position:0px -60px;
+}
+
+#gmail:active{
+	background-position:-31px -60px;
+}
+
+#close:link{
+	background-position:-60px 0px;
+}
+
+#close:active{
+	background-position:-91px 0px;
+	transform:scale(1.5);
+}
+
+
+article{
 		border:2px solid black;
 		width:50%;
 		margin-left:25%;
@@ -8,7 +55,8 @@
 		background:#5c5b57;
 		position:relative;
 }
-.footer{
+
+footer{
 		border:2px solid black;
 		width:98.5%;
 		bottom:0;
@@ -16,23 +64,28 @@
 		position:fixed;
 		background:#5c5b57;
 }
-.footer a{
+
+footer > a{
 		text-decoration:none;
 }
+
 .titletext{
 		text-align:center;;
 		font-weight:bold;
 }
+
 .productimg{
 		margin-left:35%;
 		border:2px solid green;
 }
+
 .fineprint{
 		text-align:center;
 		font-size:4px;
 		opacity:0.5;
 		color:#2e2d2a;
 }
+
 .button{
 		text-align:center;
 		background:#bbb;
@@ -41,10 +94,12 @@
 		text-decoration:none;
 		color:black;
 }
+
 .button:active{
 		background:red;
 		font-weight:bold;
 }
+
 body{
 		font-family: 'Verdana', 'Futura', 'Century Gothic', sans-serif;
 		background:#2e2d2a;

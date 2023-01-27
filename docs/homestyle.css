@@ -16,7 +16,7 @@ header{
 
 nav{
 	align-items: center;
-	justify-content:center;
+	justify-content:space-evenly;
 	display:flex;
 	width:540px;
 	height:40px;
@@ -37,6 +37,14 @@ nav > a{
 
 #github:active{
 	background-position:-31px -25px;
+}
+
+#gmail{
+	background-position:0px -60px;
+}
+
+#gmail:active{
+	background-position:-31px -60px;
 }
 button{
 	width:20px;

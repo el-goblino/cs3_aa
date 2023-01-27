@@ -3,8 +3,56 @@
     font-family: 'Verdana', 'Futura', 'Century Gothic', sans-serif;
 }
 
+#menu{
+	background:black;
+	border:4px double cyan;
+	width:1152px;
+	height:50px;
+	display:flex;
+	flex-direction:row;
+	align-items: center;
+	justify-content:space-evenly;
+	padding:2px;
+	margin:auto;
+    margin-bottom:20px;
+}
+
+#menu > a{
+	display:flex;
+	width:30px;
+	height:30px;
+	background:url('../../site2/sprites/icons.png');
+	transform:scale(1.2);
+}
+
+#github:link{
+	background-position:0px -25px;
+}
+
+#github:active{
+	background-position:-31px -25px;
+}
+
+#gmail:link{
+	background-position:0px -60px;
+}
+
+#gmail:active{
+	background-position:-31px -60px;
+}
+
+#close:link{
+	background-position:-60px 0px;
+}
+
+#close:active{
+	background-position:-91px 0px;
+	transform:scale(1.5);
+}
+
+
 #wrapper{
-    width:580px;
+    width:590px;
     margin:auto;
     display:flex;
     flex-direction: column;
